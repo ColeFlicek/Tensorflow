@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MINST CNN.iml" filepath="$PROJECT_DIR$/.idea/MINST CNN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Books/Tensorflow projects/.idea/Tensorflow projects.iml" filepath="$PROJECT_DIR$/../../Books/Tensorflow projects/.idea/Tensorflow projects.iml" />
+    </modules>
+  </component>
+</project>
