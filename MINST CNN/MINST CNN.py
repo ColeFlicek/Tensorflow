@@ -23,7 +23,7 @@ def cnn_model_fn(features, labels, mode):
   # Padding is added to preserve width and height.
   # Input Tensor Shape: [batch_size, 28, 28, 1]
   # Output Tensor Shape: [batch_size, 28, 28, 32]
-  with tf.name_scope("Conv 1"):
+  with tf.name_scope("Conv1"):
     conv1 = tf.layers.conv2d(
         inputs=input_layer,
         filters=32,
@@ -36,7 +36,7 @@ def cnn_model_fn(features, labels, mode):
   # First max pooling layer with a 2x2 filter and stride of 2
   # Input Tensor Shape: [batch_size, 28, 28, 32]
   # Output Tensor Shape: [batch_size, 14, 14, 32]
-  with tf.name_scope("Pool 1"):
+  with tf.name_scope("Pool1"):
     pool1 = tf.layers.max_pooling2d(inputs=conv1, pool_size=[2, 2], strides=2)
 
   # Convolutional Layer #2
@@ -44,7 +44,7 @@ def cnn_model_fn(features, labels, mode):
   # Padding is added to preserve width and height.
   # Input Tensor Shape: [batch_size, 14, 14, 32]
   # Output Tensor Shape: [batch_size, 14, 14, 64]
-  with tf.name_scope("Conv 2"):
+  with tf.name_scope("Conv2"):
     conv2 = tf.layers.conv2d(
       inputs=pool1,
       filters=64,
@@ -57,7 +57,7 @@ def cnn_model_fn(features, labels, mode):
   # Second max pooling layer with a 2x2 filter and stride of 2
   # Input Tensor Shape: [batch_size, 14, 14, 64]
   # Output Tensor Shape: [batch_size, 7, 7, 64]
-  with tf.name_scope("Pool 2"):
+  with tf.name_scope("Pool2"):
     pool2 = tf.layers.max_pooling2d(inputs=conv2, pool_size=[2, 2], strides=2)
     tf.summary.histogram("Pool2", pool2)
 
