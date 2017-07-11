@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="d868055b-0043-42ac-9058-973b40c289d9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Regression Prac.py" />
+=======
     <list default="true" id="7f25bfbc-f36d-4238-985d-7717b39bd6c2" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Regression Pract..py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Regression.iml" afterPath="$PROJECT_DIR$/.idea/Regression.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,6 +25,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
+      <file leaf-file-name="Regression Prac.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Regression Prac.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+=======
       <file leaf-file-name="Regression Pract..py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Regression Pract..py">
           <provider selected="true" editor-type-id="text-editor">
@@ -28,6 +41,7 @@
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
             </state>
           </provider>
         </entry>
@@ -47,7 +61,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Regression Prac.py" />
+=======
         <option value="$PROJECT_DIR$/Regression Pract..py" />
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
       </list>
     </option>
   </component>
@@ -60,6 +78,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+=======
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -89,6 +113,10 @@
           </PATH>
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="Scratches" />
+=======
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -108,6 +136,9 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager">
+=======
   <component name="RunManager" selected="Python.Regression Pract.">
     <configuration default="false" name="Regression Pract." type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +157,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,6 +173,10 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+<<<<<<< HEAD
+      <option name="EMULATE_TERMINAL" value="false" />
+=======
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
       <method />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -155,6 +191,8 @@
       <module name="Regression" />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,6 +212,7 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -193,6 +232,8 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
+=======
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -214,6 +255,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -224,6 +266,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Regression" />
+<<<<<<< HEAD
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+=======
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
@@ -268,6 +317,7 @@
         <item index="0" class="java.lang.String" itemvalue="Python.Regression Pract." />
       </list>
     </recent_temporary>
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -313,7 +363,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Regression Prac.py">
+=======
     <entry file="file://$PROJECT_DIR$/LinearRegression.pickle">
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -321,6 +375,8 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/Regression Pract..py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
@@ -331,5 +387,6 @@
         </state>
       </provider>
     </entry>
+>>>>>>> 63fcc08bac194ee70b1406438502bc46b110a1a6
   </component>
 </project>
