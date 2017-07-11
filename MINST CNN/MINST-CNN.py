@@ -16,7 +16,7 @@ def cnn_model_fn(features, labels, mode):
   # Input Layer
   # Reshape X to 4- [batch_D tensor:size, width, height, channels]
   # MNIST images are 28x28 pixels, and have one color channel
-  input_layer = tf.reshape(features, [-1, 28, 28, 1])
+  input_layer = tf.reshape(features, [-1, 28, 28, 1], name="Input Layer")
 
   # Convolutional Layer #1
   # Computes 32 features using a 5x5 filter with ReLU activation.
@@ -71,16 +71,17 @@ def cnn_model_fn(features, labels, mode):
   # Densely connected layer with 1024 neurons
   # Input Tensor Shape: [batch_size, 7 * 7 * 64]
   # Output Tensor Shape: [batch_size, 1024]
-  dense = tf.layers.dense(inputs=pool2_flat, units=1024, activation=tf.nn.relu)
+  with tf.name_scope("Dense"):
+    dense = tf.layers.dense(inputs=pool2_flat, units=1024, activation=tf.nn.relu)
 
   # Add dropout operation; 0.6 probability that element will be kept
   dropout = tf.layers.dropout(
-      inputs=dense, rate=0.4, training=mode == learn.ModeKeys.TRAIN)
+      inputs=dense, rate=0.4, training=mode == learn.ModeKeys.TRAIN, name="Dropout")
 
   # Logits layer
   # Input Tensor Shape: [batch_size, 1024]
   # Output Tensor Shape: [batch_size, 10]
-  logits = tf.layers.dense(inputs=dropout, units=10)
+  logits = tf.layers.dense(inputs=dropout, units=10, name="logits")
 
   loss = None
   train_op = None
