@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../MINST CNN/.idea/MINST CNN.iml" filepath="$PROJECT_DIR$/../MINST CNN/.idea/MINST CNN.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Regression.iml" filepath="$PROJECT_DIR$/.idea/Regression.iml" />
     </modules>
   </component>
