@@ -6,7 +6,7 @@ from SampleData import Create_Dataset
 
 style.use(['fivethirtyeight', 'ggplot'])
 
-xs, ys = Create_Dataset(100, 50, correlation='neg')
+xs, ys = Create_Dataset(100, 21, correlation='pos')
 
 xs = np.array(xs, dtype=np.float64)
 ys = np.array(ys, dtype=np.float64)
