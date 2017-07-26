@@ -30,6 +30,27 @@ def Assign_Num_Cats(df):
     return df
 
 df = pd.read_excel('titanic.xls')
-df.drop(['name', 'ticket', 'cabin', 'home.dest'], 1, inplace = True)
+df.drop(['body','name', 'home.dest', 'embarked', 'cabin', 'boat'], 1, inplace=True)
+df.convert_objects(convert_numeric=True)
+df.fillna(0, inplace=True)
 df = Assign_Num_Cats(df)
-print(df.head())
+
+X = np.array(df.drop(['survived'], 1).astype(float))
+X = preprocessing.scale(X)
+Y = np.array(df['survived'])
+
+clf = KMeans(n_clusters=2)
+clf.fit(X)
+
+correct = 0
+print(X[1].astype(float))
+
+for i in range(len(X)):
+    predict_me = np.array(X[i].astype(float))
+    predict_me = predict_me.reshape(-1, len(predict_me))
+    prediciton = clf.predict(predict_me)
+
+    if prediciton[0] == Y[i]:
+        correct += 1
+
+print(correct / len(X))
